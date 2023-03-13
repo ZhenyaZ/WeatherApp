@@ -1,0 +1,34 @@
+.welcomePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.welcomeCard {
+  width: 600px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.about {
+  margin: 50px;
+  text-align: center;
+}
+.about__subtitle {
+  margin-top: 10px;
+}
+.buttonStart {
+  display: flex;
+  justify-content: center;
+}
